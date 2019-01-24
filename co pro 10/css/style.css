@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+}
+
+#score-success {
+    color: rgb(11, 26, 236);
+}
+
+#score-miss,
+#level {
+    color: red;
+}
+
+.modal,
+.winning {
+    position: absolute;
+    left: 32%;
+    top: 35%;
+    height: auto;
+    width: 25em;
+    opacity: 10;
+    visibility: hidden;
+    background: linear-gradient(160deg, #2710d4 0%, #71df9b 100%);
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    border: rgb(228, 206, 206) 1px solid;
+}
+
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+}
+
+.restart {
+    background: rgb(68, 197, 68);
+    border-radius: 0.5rem;
+}
