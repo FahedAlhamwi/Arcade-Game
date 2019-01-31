@@ -25,10 +25,10 @@ Enemy.prototype.update = function(dt) {
         this.speed = 100 + Math.floor(Math.random() * 200);
     }
     if (score.level == 2) {
-        this.speed = this.speed + 5;
+        this.speed = this.speed + 6;
     }
     if (score.level == 3) {
-        this.speed = this.speed + 10;
+        this.speed = this.speed + 11;
     }
 
     // Check for collision between player and enemies
